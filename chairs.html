@@ -21,15 +21,14 @@
   <script src="js/main.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
   <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-  <script>window.addEventListener("load", function(){window.cookieconsent.initialise(json)});</script>
+  <script>window.addEventListener("load", function () { window.cookieconsent.initialise(json) });</script>
 
   <style type="text/css">
     p.c1 {
       margin-top: 4cm;
     }
-
   </style>
 </head>
 
@@ -47,8 +46,8 @@
           <li><a href="chairs.html">Chairs</a></li>
           <li><a href="members.html">Members</a></li>
           <li><a href="processes.html">Documents &amp; Processes</a></li>
-          <li><a href="papers.html">Common Papers</a></li>
-          <li><a href="books.html">Books</a></li>
+          <!--<li><a href="papers.html">Common Papers</a></li>-->
+          <!--<li><a href="books.html">Books</a></li>-->
           <li><a href="links.html">Links</a></li>
         </ul>
       </div>
@@ -60,52 +59,74 @@
         <div class="subcont">
           <h2>Current Chairs of the TC (2020-2021)</h2><b>Chair:</b>
           <div class="member">
-            <div class="image"><img align="left"
-                src="https://scholar.google.com/citations?view_op=medium_photo&user=RQI_zWcAAAAJ" width="60"
-                height="60" alt="Gabor Sziebig"></div>
+            <div class="image">
+              <img align="left"
+                   src="https://scholar.google.com/citations?view_op=medium_photo&user=RQI_zWcAAAAJ" width="60"
+                   height="60" alt="Gabor Sziebig">
+            </div>
             <div class="member_data">
-              <p><b><a href="https://scholar.google.com/citations?user=RQI_zWcAAAAJ">Gabor Sziebig</a></b><br>
+              <p>
+                <b><a href="https://scholar.google.com/citations?user=RQI_zWcAAAAJ">Gabor Sziebig</a></b><br>
                 SINTEF, Norway <br>
-                <i>E-mail:</i> <a href="mailto:gabor.sziebig@sintef.no">gabor.sziebig@sintef.no</a></p>
+                <i>E-mail:</i>
+                <script>
+                  var emailAddress = ('gabor.sziebig@' + 'sintef.no');
+                  document.write('<a href="mailto:' + emailAddress + '">' + emailAddress + '</a>');
+                </script>
+              </p>
             </div>
           </div>
           <br><br>
           <b>Vice-Chair:</b>
           <div class="member">
-            <div class="image"><img align="left"
-                src="https://tc.ifac-control.org/4/3/members/Mihoko.png" width="60"
-                height="60" alt="Mihoko Niitsuma"></div>
+            <div class="image">
+              <img align="left"
+                   src="https://tc.ifac-control.org/4/3/members/Mihoko.png" width="60"
+                   height="60" alt="Mihoko Niitsuma">
+            </div>
             <div class="member_data">
-              <p><b><a href="http://www.mech.chuo-u.ac.jp/~hslab/index.php?MihokoNiitsuma_EN">Mihoko Niitsuma</a></b><br>
+              <p>
+                <b><a href="http://www.mech.chuo-u.ac.jp/~hslab/index.php?MihokoNiitsuma_EN">Mihoko Niitsuma</a></b><br>
                 Chuo University, Japan <br>
-                <i>E-mail:</i> <a href="mailto:niitsuma@mech.chuo-u.ac.jp">niitsuma@mech.chuo-u.ac.jp</a></p>
+                <i>E-mail:</i>
+                <script>
+                  var emailAddress = ('niitsuma@' + 'mech.chuo-u.ac.jp');
+                  document.write('<a href="mailto:' + emailAddress + '">' + emailAddress + '</a>');
+                </script>
+              </p>
             </div>
           </div>
           <br><br>
           <b>Secretary:</b>
           <d<div class="member">
-            <div class="image"><img align="left"
-                src="https://scholar.google.com/citations?view_op=medium_photo&user=7jH-USMAAAAJ" width="60"
-                height="60" alt="Csaba Budai"></div>
-            <div class="member_data">
-              <p><b><a href="https://scholar.google.com/citations?user=7jH-USMAAAAJ">Csaba Budai</a></b><br>
-                Budapest University of Technology and Economics, Hungary <br>
-                <i>E-mail:</i> <a href="mailto:budai@mogi.bme.hu">budai@mogi.bme.hu</a></p>
-            </div>
+          <div class="image"><img align="left"
+          src="https://scholar.google.com/citations?view_op=medium_photo&user=7jH-USMAAAAJ" width="60"
+          height="60" alt="Csaba Budai"></div>
+          <div class="member_data">
+          <p>
+          <b><a href="https://scholar.google.com/citations?user=7jH-USMAAAAJ">Csaba Budai</a></b><br>
+          Budapest University of Technology and Economics, Hungary <br>
+          <i>E-mail:</i>
+          <script>
+          var emailAddress = ('budai@' + 'mogi.bme.hu');
+          document.write('<a href="mailto:' + emailAddress + '">' + emailAddress + '</a>');
+          </script>
+          </p>
+          </div>
           </div>
           <p class="c1"></p>
           <h2>Past Chairs of the TC</h2>
           <p><b>2018-2019</b></p>
           <ul>
-            <li><i>Chair:</i> Name Surname, Institution, Country</li>
-            <li><i>Vice-Chair:</i> Name Surname, Institution, Country</li>
-            <li><i>Secretary:</i> Name Surname, Institution, Country</li>
+          <li><i>Chair:</i> Yasuharu Kunii, Chuo University, Japan</li>
+          <li><i>Vice-Chair:</i> Gabor Sziebig, UiT The Arctic University of Norway, Norway</li>
+          <li><i>Secretary:</i> Mihoko Niitsuma, Chuo University, Japan</li>
           </ul>
           <p><b>2016-2017</b></p>
           <ul>
-            <li><i>Chair:</i> Name Surname, Institution, Country</li>
-            <li><i>Vice-Chair:</i> Name Surname, Institution, Country</li>
-            <li><i>Secretary:</i> Name Surname, Institution, Country</li>
+          <li><i>Chair:</i> Yasuharu Kunii, Chuo University, Japan</li>
+          <li><i>Vice-Chair:</i> Gabor Sziebig, UiT The Arctic University of Norway, Norway</li>
+          <li><i>Secretary:</i> Mihoko Niitsuma, Chuo University, Japan</li>
           </ul>
         </div>
       </div>
